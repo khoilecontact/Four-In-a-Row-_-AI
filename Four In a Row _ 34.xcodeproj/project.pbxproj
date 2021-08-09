@@ -13,6 +13,9 @@
 		223E17A826BF94D600ACD192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223E17A626BF94D600ACD192 /* Main.storyboard */; };
 		223E17AA26BF94D900ACD192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223E17A926BF94D900ACD192 /* Assets.xcassets */; };
 		223E17AD26BF94D900ACD192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 223E17AB26BF94D900ACD192 /* LaunchScreen.storyboard */; };
+		223E17B526BFD79800ACD192 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E17B426BFD79800ACD192 /* Board.swift */; };
+		223E17B726C02FC300ACD192 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E17B626C02FC300ACD192 /* Player.swift */; };
+		223E17B926C0E09C00ACD192 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223E17B826C0E09C00ACD192 /* Move.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		223E17A926BF94D900ACD192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		223E17AC26BF94D900ACD192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		223E17AE26BF94D900ACD192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223E17B426BFD79800ACD192 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		223E17B626C02FC300ACD192 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		223E17B826C0E09C00ACD192 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				223E17A026BF94D600ACD192 /* AppDelegate.swift */,
 				223E17A226BF94D600ACD192 /* SceneDelegate.swift */,
 				223E17A426BF94D600ACD192 /* ViewController.swift */,
+				223E17B626C02FC300ACD192 /* Player.swift */,
+				223E17B426BFD79800ACD192 /* Board.swift */,
+				223E17B826C0E09C00ACD192 /* Move.swift */,
 				223E17A626BF94D600ACD192 /* Main.storyboard */,
 				223E17A926BF94D900ACD192 /* Assets.xcassets */,
 				223E17AB26BF94D900ACD192 /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			files = (
 				223E17A526BF94D600ACD192 /* ViewController.swift in Sources */,
 				223E17A126BF94D600ACD192 /* AppDelegate.swift in Sources */,
+				223E17B526BFD79800ACD192 /* Board.swift in Sources */,
+				223E17B726C02FC300ACD192 /* Player.swift in Sources */,
+				223E17B926C0E09C00ACD192 /* Move.swift in Sources */,
 				223E17A326BF94D600ACD192 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "KhoiLe.Four-In-a-Row---34";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "KhoiLe.Four-In-a-Row---34";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
